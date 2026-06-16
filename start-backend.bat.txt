@@ -1,0 +1,9 @@
+@echo off
+setlocal
+cd /d "%~dp0"
+
+if exist "target\smart-inventory-1.0.0.jar" (
+  java -jar "target\smart-inventory-1.0.0.jar"
+) else (
+  mvn spring-boot:run
+)

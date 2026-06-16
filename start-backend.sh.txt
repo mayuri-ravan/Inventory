@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+set -eu
+cd "$(dirname "$0")"
+
+if [ -f "target/smart-inventory-1.0.0.jar" ]; then
+  java -jar "target/smart-inventory-1.0.0.jar"
+else
+  mvn spring-boot:run
+fi
