@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Smart Inventory & Order Management System
 
 Enterprise-level Spring Boot 3 REST API for multi-role inventory, order, supplier, and warehouse management.
@@ -240,3 +241,7 @@ src/main/java/com/smartinventory/
 - Audit logs: `logs/audit.log`
 - Console: coloured output with timestamp, thread, level, class
 
+=======
+# Inventory
+Inventory
+>>>>>>> bd6917815c0ade90aa8dd2990ea486abfe88beef
